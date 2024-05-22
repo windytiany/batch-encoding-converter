@@ -1,2 +1,2 @@
 # batch-encoding-converter
-a .bat script toconvert encoding in batch. Based on ffmpeg.
+a .bat script to convert file encoding in batch. Based on ffmpeg.
