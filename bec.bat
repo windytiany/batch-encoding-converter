@@ -7,7 +7,7 @@ set /p target=please enter target file type(e.g. mp3, aac...):
 for %%i in (*) do (
 	set input=%%i
 	set output=!input:%type%=%target%!
-	if !input! neq AutoConverter.bat (ffmpeg -i "!input!" "!output!")
+	if !input! neq bec.bat (ffmpeg -i "!input!" "!output!")
 
 )
 
